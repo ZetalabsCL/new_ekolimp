@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>Ekolimp Chile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Required -->
+    <link href="css/global-style.css" rel="stylesheet" type="text/css" media="screen">
+<link rel="icon" href="images/favicon.png" type="image/png">
+<link href="assets/fraction/fractionslider.css" rel="stylesheet" type="text/css" media="screen">
+<!-- Menu Left -->
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<script src="js/modernizr.custom.js"></script>
+<!-- Menu Left -->
+</head>
+<body>
+
+<div class="wrapper">
+	<div class="top-header">
+	<div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+            	<span class="aux-text hidden-xs">
+                    Bienvenidos a Ekolimp: <a href="mailto:contacto@ekolimp.cl">contacto@ekolimp.cl</a> o <a href="tel:+56225049153">+56 2 2504 9153</a>
+                </span>
+            	<nav class="top-header-menu">
+                    <ul class="menu">
+                        <li><a href="sign-in.html">Login</a></li>
+<!--                         <li class="aux-languages dropdown"><a href="#"><span class="language name">Ingles</span></a>
+                            <ul id="auxLanguages" class="sub-menu">
+                                <li><a href="#"><span class="language">Aleman</span></a></li>
+                                <li><span class="language language-active">Ingles</span></li>
+                                <li><a href="#"><span class="language">Griego</span></a></li>
+                                <li><a href="#"><span class="language">Español</span></a></li>
+                            </ul>
+                        </li> -->
+                       <!--  <li class="shopping-cart dropdown">
+                            <a href="#" title="View your shopping cart"><i class="fa fa-shopping-cart"></i><span class="amount">&#36;0</span></a>
+
+                            <ul class="sub-menu">
+                                <li>
+                                    <div class="dropdown-cart">
+                                        <span class="cart-items">Tienes <strong>3</strong> elementos en tu carro</span>
+                                        <table class="table table-cart">
+                                            <tbody>
+                                                <tr>
+                                                    <th colspan="2">Producto</th>
+                                                    <th class="text-center">Cantidad</th>
+                                                    <th>Total</th>
+                                                </tr>
+
+                                                <tr>
+                                                    <td><img src="images/prv/product-3.png" class="img-center" alt=""></td>
+                                                    <td><a href="">Asus Ultra Notebook</a></td>
+                                                    <td class="text-center">2</td>
+                                                    <td>$600.990</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><img src="images/prv/product-2.png" class="img-center" alt=""></td>
+                                                    <td><a href="">Mouse Microsoft</a></td>
+                                                    <td class="text-center">3</td>
+                                                    <td>$6.009</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><img src="images/prv/product-4.png" class="img-center" alt=""></td>
+                                                    <td><a href="">Samsung Galaxy S4</a></td>
+                                                    <td class="text-center">1</td>
+                                                    <td>$3.009</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <a href="shop-cart.html" class="btn btn-xs btn-three">Editar Carro</a>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <a href="#" class="btn btn-xs btn-two pull-right">Terminar Compra</a>
+                                                <span class="clearfix"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li> -->
+                    </ul>
+				</nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header>
+    <div class="navbar  navbar-white" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+            	<button type="button" class="navbar-toggle navbar-toggle-aside-menu">
+                    <i class="fa fa-outdent icon-custom"></i>
+                </button>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                	<img src="images/boomerang-logo.png" alt="Boomerang Bootstrap Template Logo">
+                </a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                	<li class="active">
+                    	<a href="#">Home</a>
+                	</li>
+                    <li class="dropdown">
+                    	<a href="nosotros.html" class="dropdown-toggle" data-hover="dropdown" data-close-others="true">Empresa</a>
+                	</li>
+                    <li class="dropdown">
+                    	<a href="marcas.html" class="dropdown-toggle" data-hover="dropdown" data-close-others="true">Marcas</a>
+                	</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-hover="dropdown" data-close-others="true">Login Clientes</a>
+								</li>
+								<li class="dropdown">
+									<a href="catalogo.html" class="dropdown-toggle" data-hover="dropdown" data-close-others="true">Catalogo</a>
+							</li>
+                    <li class="dropdown">
+                    	<a href="carro.html" class="dropdown-toggle" data-hover="dropdown" data-close-others="true">Carro de Compra</a>
+                        <!-- <ul class="dropdown-menu">
+                            <li><a href="shop-home.html">Inicio</a></li>
+                            <li><a href="shop-products.html">Todos los Productos</a></li>
+                            <li><a href="shop-product.html">Producto</a></li>
+                            <li><a href="shop-cart.html">Carrito</a></li>
+                            <li><a href="shop-account.html">Cuenta</a></li>
+                            <li><a href="shop-profile.html">Perfil de Usuario</a></li>
+                            <li><a href="shop-order-history.html">Historial de Envios</a></li>
+                            <li><a href="shop-whishlist.html">Lista de Deseos</a></li>
+                            <li><a href="shop-invoice.html">Factura</a></li>
+
+                        </ul> -->
+                	</li>
+                    <li class="dropdown">
+                    	<a href="contacto.html" class="dropdown-toggle" data-hover="dropdown" data-close-others="true">Contacto</a>
+                        <!-- <ul class="dropdown-menu">
+                            <li><a href="contact.html">Contact: Fluid</a></li>
+                            <li><a href="contact2.html">Contact: Compact</a></li>
+                        </ul> -->
+                	</li>
+                    <li class="dropdown hide" style="z-index:500;">
+                    	<a href="#" class="dropdown-toggle dropdown-form-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-user">
+                            <li id="dropdownForm">
+                            	<div class="dropdown-form">
+                                	<form role="form" class="p-15">
+                                        <div class="form-group">
+                                        	<input type="search" class="form-control" id="email" placeholder="Enter email">
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+                        </ul>
+                	</li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+</header>
+    <section class="slider-wrapper">
+        <div class="responisve-container">
+            <div class="slider">
+                <div class="fs_loader"></div>
+
+                <div class="slide slide-light">
+                    <img src="images/carousel/carousel-img-3.png" alt="" height="440" data-position="0,-460" data-in="bottom" data-delay="200" data-out="top">
+                    <img src="images/prv/human-img-3.png" alt="" data-position="20, -200" data-in="bottom" data-delay="400" data-out="bottom">
+
+                    <p class="claim bg-2" data-position="70,500" data-in="top" data-step="1" data-out="bottom" data-time="1000" data-delay="100">
+                        Nuestros Productos
+                    </p>
+                    <p class="claim dark" data-position="120,500" data-in="top" data-step="1" data-out="bottom" data-time="3500" data-delay="250">
+                        Siempre a tu alcance
+                    </p>
+
+                    <p class="teaser dark small" data-position="180,500" data-in="left" data-step="2" data-time="1500" data-delay="100">
+                        El Mejor Servicio
+                    </p>
+                    <p class="teaser dark small" data-position="180,500" data-in="left" data-step="2" data-special="cycle" data-time="3100" data-delay="1600">
+                        La Mejor Calidad
+                    </p>
+                    <p class="teaser dark small" data-position="180,500" data-in="left" data-step="2" data-special="cycle" data-time="5000" data-delay="3000">
+                        A un Click de distancia
+                    </p>
+                    <!-- <p class="teaser dark small" data-position="180,0" data-in="left" data-step="2" data-special="cycle" data-time="7000" data-delay="5000">
+                        Otro texto
+                    </p>
+                    <p class="teaser dark small" data-position="180,0" data-in="left" data-step="2" data-special="cycle" data-time="9000" data-delay="7500">
+                        Otro mas
+                    </p> -->
+                </div>
+                <div class="slide">
+                    <img src="images/carousel/carousel-img-2.png" alt="" height="440" data-position="0,-460" data-in="left" data-delay="200" data-out="right">
+                    <img src="images/slider/device-2.png" alt="" data-step="1" data-position="40, 600" data-in="bottom" data-delay="300" data-out="fade">
+                    <img src="images/slider/device-5.png" alt="" data-step="1" data-position="40,750" data-in="left" data-delay="500" data-out="fade">
+                     <p class="claim light" data-position="70,0" data-in="top" data-step="2" data-out="top" data-delay="100">
+                        Los mejores productos
+                    </p>
+                    <p class="teaser dark small" data-position="130,0" data-in="bottom" data-step="2" data-delay="300">
+                     El mayor surtido
+                    </p>
+                    <p class="teaser dark small" data-position="175,0" data-in="bottom" data-step="2" data-delay="600">
+                        La mejor calidad
+                    </p>
+                    <p class="teaser dark small" data-position="225,0" data-in="bottom" data-step="2" data-delay="1100">
+                        En la puerta de tu condominio
+                    </p>
+                </div>
+                <div class="slide">
+                    <img src="images/carousel/carousel-img-7.png" alt="" height="440" data-position="0,-460" data-in="right" data-delay="100" data-out="left">
+                    <p class="claim light" data-position="130,280" data-in="top" data-out="top" data-delay="1000">
+                        Estamos aqui para ayudarte, contactanos
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slice bg-2 p-15">
+        <div class="cta-wr">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h1>
+                            <strong>Los mejores productos</strong>, El mejor servicio, mas cerca de ti!
+                        </h1>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="btn btn-one btn-lg pull-right" title="" href="" target="blank">
+                        <i class="fa fa-bolt"></i> Buscanos Ahora
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="slice bg-banner-1">
+        <div class="w-section inverse">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="text-center">
+                            <h4><i class="fa fa-quote-left fa-3x"></i></h4>
+                            <h2>El mejor servicio a tu disposicion</h2>
+                            <p>
+                                Contamos con toda la experiencia para brindar un servicio personalizado.
+                            </p>
+                            <span class="clearfix"></span>
+
+                            <div class="text-center">
+                                <a href="#" class="btn btn-lg btn-one mt-20 ext-source">Ver mas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slice bg-5">
+        <div class="w-section inverse">
+            <div class="container">
+                <h3 class="section-title">Nuestros Servicios</h3>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="w-box white">
+                            <div class="thmb-img">
+                                <i class="fa fa-lightbulb-o"></i>
+                            </div>
+
+                            <h2>Mision</h2>
+                            <p class="text-center">Nuestra Misión es entregar a las Comunidades de Edificios y Condominios un servicio integral de abastecimiento de productos, que sea flexible, rápido, eficiente y de bajo costo, mediante una atención especializada y personalizada, convirtiéndonos en un puente entre la industria nacional y el hogar.
+</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="w-box white">
+                            <div class="thmb-img">
+                                <i class="fa fa-keyboard-o"></i>
+                            </div>
+
+                            <h2>Vision</h2>
+                            <p class="text-center">Queremos convertirnos en una compañía referente, presente en las principales regiones del país, fortaleciendo permanentemente las relaciones con nuestros proveedores y clientes para entregarles un mejor servicio que les permita lograr una calidad de vida cada día mejor.
+</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="w-box white">
+                            <div class="thmb-img">
+                                <i class="fa fa-code"></i>
+                            </div>
+
+                            <h2>Valores</h2>
+                            <p class="text-center">Los valores que determinan nuestro actuar son la Integridad, el Trabajo en Equipo y la Excelencia en el Servicio</p>
+                        </div>
+                    </div>
+
+<!--                     <div class="col-lg-3 col-md-6">
+                        <div class="w-box white">
+                            <div class="thmb-img">
+                                <i class="fa fa-rocket"></i>
+                            </div>
+
+                            <h2>Nuestros Productos</h2>
+                            <p class="text-center">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum. </p>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="companyCarousel" class="carousel carousel-2 slide bg-3" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>El Mejor servicio a tu disposicion</h2>
+                            <p>No espere más, todos los productos en la puerta de su condominio cuando usted los necesita. Disponemos de un amplio catalogo de productos de limpieza, electricidad, ferretería, jardinería y conserjería, con las mejores marcas y los mejores precios para contribuir al bienestar de su comunidad.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/prv/device-3.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>Toda nuestra experiencia en tus manos</h2>
+                            <p>Contamos con un equipo de basta experiencia, preparado para dar respuesta y solucion a tus inquietudes y necesidades a un click de distancia, cuenta con nosotros.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="images/prv/device-4.jpg" class="img-responsive" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#companyCarousel" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+        </a>
+        <a class="right carousel-control" href="#companyCarousel" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+        </a>
+    </section>
+
+<!--     <section class="slice animate-hover-slide bg-5">
+        <div class="w-section inverse">
+            <div class="container">
+                <h3 class="section-title">Nuestros Productos</h3>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="w-box">
+                            <div class="figure">
+                                <img alt="" src="images/prv/wk-img-1.jpg" class="img-responsive">
+                                <span class="date-over small"><strong>10 Diciembre, 2013</strong></span>
+                                <div class="figcaption bg-2"></div>
+                                <div class="figcaption-btn">
+                                    <a href="../images/prv/col-img-1.jpg" class="btn btn-xs btn-one theater"><i class="fa fa-plus-circle"></i> Zoom</a>
+                                    <a href="#" class="btn btn-xs btn-one"><i class="fa fa-link"></i> Ver</a>
+                                </div>
+                            </div>
+                            <h2>Producto 1</h2>
+                            <p>
+                            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="w-box">
+                            <div class="figure">
+                                <img alt="" src="images/prv/wk-img-2.jpg" class="img-responsive">
+                                <span class="date-over small"><strong>23 Diciembre, 2013</strong></span>
+                                <div class="figcaption bg-2"></div>
+                                <div class="figcaption-btn">
+                                    <a href="../images/prv/col-img-2.jpg" class="btn btn-xs btn-one theater"><i class="fa fa-plus-circle"></i> Zoom</a>
+                                    <a href="#" class="btn btn-xs btn-one"><i class="fa fa-link"></i> Ver</a>
+                                </div>
+                            </div>
+                            <h2>Producto 2</h2>
+                            <p>
+                            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="w-box">
+                            <div class="figure">
+                                <img alt="" src="images/prv/wk-img-4.jpg" class="img-responsive">
+                                <span class="date-over small"><strong>25 Diciembre, 2013</strong></span>
+                                <div class="figcaption bg-2"></div>
+                                <div class="figcaption-btn">
+                                    <a href="../images/prv/col-img-3.jpg" class="btn btn-xs btn-one theater"><i class="fa fa-plus-circle"></i> Zoom</a>
+                                    <a href="#" class="btn btn-xs btn-one"><i class="fa fa-link"></i> Ver</a>
+                                </div>
+                            </div>
+                            <h2>Producto 3</h2>
+                            <p>
+                            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="w-box">
+                            <div class="figure">
+                                <img alt="" src="images/prv/wk-img-5.jpg" class="img-responsive">
+                                <span class="date-over small"><strong>03 Enero, 2014</strong></span>
+                                <div class="figcaption bg-2"></div>
+                                <div class="figcaption-btn">
+                                    <a href="../images/prv/col-img-4.jpg" class="btn btn-xs btn-one theater"><i class="fa fa-plus-circle"></i> Zoom</a>
+                                    <a href="#" class="btn btn-xs btn-one"><i class="fa fa-link"></i> Ver</a>
+                                </div>
+                            </div>
+                            <h2>Producto 4</h2>
+                            <p>
+                            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="slice bg-2 p-15">
+        <div class="cta-wr">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <h1>
+                            Tenemos todo lo que necesitas, buscalo en nuestra tienda!
+                        </h1>
+                    </div>
+                    <div class="col-md-3">
+                        <a class="btn btn-one btn-lg pull-right" title="" href="" target="blank">
+                        <i class="fa fa-shopping-cart"></i> Visitar tienda
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="slice bg-3">
+        <div class="w-section inverse">
+            <div class="container">
+                <h3 class="section-title">Nuestros Productos</h3>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="w-box product">
+                            <figure>
+                                <img alt="" src="images/prv/product-1.jpg" class="img-responsive img-center">
+                            </figure>
+                            <h2><a href="">Nikon Coolpix L320</a></h2>
+                            <p>
+                            Donec id elit non mi porta gravida at eget metus.
+                            </p>
+                            <div class="w-footer">
+                                <span class="price pull-left">$233.33</span>
+                                <a href="#" class="btn btn-xs btn-two pull-right">Agregar al Carro</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="w-box product">
+                            <figure>
+                                <img alt="" src="images/prv/product-2.jpg" class="img-responsive img-center">
+                            </figure>
+                            <h2><a href="">Samsung Galaxy S4</a></h2>
+                            <p>
+                            Donec id elit non mi porta gravida at eget metus.
+                            </p>
+                            <div class="w-footer">
+                                <span class="price pull-left">$233.33</span>
+                                <a href="#" class="btn btn-xs btn-two pull-right">Agregar al Carro</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="w-box product">
+                            <figure>
+                                <img alt="" src="images/prv/product-3.jpg" class="img-responsive img-center">
+                            </figure>
+                            <h2><a href="">Asus Ultra Notebook</a></h2>
+                            <p>
+                            Donec id elit non mi porta gravida at eget metus.
+                            </p>
+                            <div class="w-footer">
+                                <span class="price pull-left">$233.33</span>
+                                <a href="#" class="btn btn-xs btn-two pull-right">Agregar al Carro</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="w-box product">
+                            <figure>
+                                <img alt="" src="images/prv/product-4.jpg" class="img-responsive img-center">
+                            </figure>
+                            <h2><a href="">PC mouse Microsoft</a></h2>
+                            <p>
+                            Donec id elit non mi porta gravida at eget metus.
+                            </p>
+                            <div class="w-footer">
+                                <span class="price pull-left">$233.33</span>
+                                <a href="#" class="btn btn-xs btn-two pull-right">Agregar al Carro</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+        <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+            	<div class="col">
+                   <h4>Contactenos</h4>
+                   <ul>
+                        <li>Vasco de Gama # 4620, Las Condes, Santiago</li>
+                        <li>Fono: +56 2 2504 9153 | Fax: +56 2 2504 9153 </li>
+                        <li>Email: <a href="mailto:contacto@ekolimp.cl" title="Envianos un Mail">contacto@ekolimp.cl</a></li>
+                        <li>Skype: <a href="skype:test?call" title="Skype us">Mi Negocio</a></li>
+                        <li>Estamos a tu servicio</li>
+                    </ul>
+                 </div>
+            </div>
+
+            <div class="col-md-3">
+            	<div class="col">
+                    <h4>Lista de Correo</h4>
+                    <p>Suscribete en nuestro newsletter para recibir nuestro catalogo de manera gratuita.</p>
+                    <form class="form-inline">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Tu E-Mail..." />
+                            <span class="input-group-btn">
+                                <button class="btn btn-two" type="button">Enviar!</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+            	<div class="col col-social-icons">
+                    <h4>Siguenos</h4>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-skype"></i></a>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+                    <a href="#"><i class="fa fa-flickr"></i></a>
+                </div>
+            </div>
+
+             <div class="col-md-3">
+             	<div class="col">
+                    <h4>Nosotros</h4>
+                    <p>
+                    Soluciones simples para la administracion y gestion de condominios
+                    <br /><br />
+                    <a href="#" class="btn btn-two">Contactanos!</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="row">
+        	<div class="col-lg-9 copyright">
+            	2014 &copy; Ekolimp. All rights reserved.
+                <a href="#">Terminos de Uso</a> |
+                <a href="#">Politica de Privacidad</a>
+            </div>
+            <div class="col-lg-3 footer-logo">
+
+            </div>
+        </div>
+    </div>
+</footer></div>
+
+<!-- JavaScript -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/jquery.easing.js"></script>
+
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="assets/hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
+<script type="text/javascript" src="assets/masonry/masonry.js"></script>
+<script type="text/javascript" src="assets/page-scroller/jquery.ui.totop.min.js"></script>
+<script type="text/javascript" src="assets/mixitup/jquery.mixitup.js"></script>
+<script type="text/javascript" src="assets/mixitup/jquery.mixitup.init.js"></script>
+<script type="text/javascript" src="assets/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script type="text/javascript" src="assets/easy-pie-chart/jquery.easypiechart.js"></script>
+<script type="text/javascript" src="assets/waypoints/waypoints.min.js"></script>
+<script type="text/javascript" src="js/jquery.wp.custom.js"></script><script src="assets/fraction/jquery.fractionslider.min.js"></script>
+<script src="assets/fraction/jquery.fractionslider.init.js"></script>
+
+</body>
+</html>

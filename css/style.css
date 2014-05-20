@@ -1,0 +1,47 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?pyjeua');
+	src:url('fonts/icomoon.eot?#iefixpyjeua') format('embedded-opentype'),
+		url('fonts/icomoon.woff?pyjeua') format('woff'),
+		url('fonts/icomoon.ttf?pyjeua') format('truetype'),
+		url('fonts/icomoon.svg?pyjeua#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	font-size: 1.4em;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+	content: "\e600";
+}
+.icon-office:before {
+	content: "\e601";
+}
+.icon-barcode:before {
+	content: "\e602";
+}
+.icon-user:before {
+	content: "\e603";
+}
+.icon-signup:before {
+	content: "\e604";
+}
+.icon-cart:before {
+	content: "\e605";
+}
+.icon-mail:before {
+	content: "\e606";
+}
